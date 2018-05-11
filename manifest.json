@@ -1,0 +1,10 @@
+{
+  "name": "Deannoy Jira",
+  "version": "1.0",
+  "description": "Remove annoying hijacks of common hotkeys by Jira rich text editor",
+  "manifest_version": 2,
+  "content_scripts": [
+    {"matches": ["https://*.atlassian.net/*"], "js": ["cs.js"]}
+  ],
+  "web_accessible_resources": ["cs_injection.js"]
+}

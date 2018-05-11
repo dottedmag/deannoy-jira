@@ -8,4 +8,3 @@ script.onload = function()
     this.remove();
 };
 (document.head || document.documentElement).appendChild(script);
-console.log('dejira loaded');
